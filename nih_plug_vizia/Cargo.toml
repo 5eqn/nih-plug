@@ -14,7 +14,7 @@ nih_plug_assets = { git = "https://github.com/robbert-vdh/nih_plug_assets.git" }
 baseview = { git = "https://github.com/RustAudio/baseview.git" }
 # This contains an as of writing not yet merged patch for rounding errors when
 # resizing, and a workaround for certain events not firing when resizing
-vizia = { git = "https://github.com/dathinaios/vizia.git", default_features = false, features = ["baseview", "clipboard", "x11"] }
+vizia = { git = "https://github.com/5eqn/vizia.git", default_features = false, features = ["baseview", "clipboard", "x11"] }
 
 crossbeam = "0.8"
 # To make the state persistable
